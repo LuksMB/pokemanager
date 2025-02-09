@@ -11,15 +11,14 @@ Pokemon Manager é um framework simples para gerenciar treinadores e seus Pokém
 
 ---
 
-![Criando Treinadores](images/imagem1.png)
-![Criando Pokémons](images/imagem2.png)
-![Salvando os Dados](images/imagem3.png)
+![Criando Treinadores](images/Teste1.png)
+![Criando Pokémons](images/Teste2.png)
 
 
 ## 🛠️ Instalação e Execução
 ### **1. Clonar o Repositório**
 ```sh
-git clone 
+git clone https://github.com/LuksMB/pokemanager
 cd pokemon-manager
 ```
 
@@ -43,7 +42,7 @@ java -jar target/pokemon-manager.jar
 
 ## 📝 Estrutura do Projeto
 ```
-pokemon-manager/
+pokemanager/
 │── src/
 │   ├── main/
 │   │   ├── java/com/pokemonmanager/

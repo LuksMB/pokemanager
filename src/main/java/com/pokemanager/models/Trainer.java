@@ -1,6 +1,6 @@
 package com.pokemanager.models;
 import java.io.Serializable;
-import java.util.List;
+import java.util.*;
 
 public class Trainer implements Serializable {
 
@@ -12,6 +12,7 @@ public class Trainer implements Serializable {
     public Trainer(String name, int age) {
         this.name = name;
         this.age = age;
+        this.pokemonTeam = new ArrayList<Pokemon>();
     }
 
     public void addPokemon(Pokemon pokemon) {
